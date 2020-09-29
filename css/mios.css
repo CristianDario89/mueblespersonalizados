@@ -149,7 +149,7 @@ a.control_next3, a.control_next4, a.control_next5 {
    
   
 }
-    #slider3 ul li img, #slider4 ul li img, #slider5 ul li img, #slider2 ul li img {
+    #slider3 ul li wrapimg , #slider4 ul li wrapimg , #slider5 ul li wrapimg , #slider2 ul li wrapimg  {
   
   width: 100%;
 }
