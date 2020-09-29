@@ -1,8 +1,7 @@
 .altito h2{
     margin-top: 50px;
 } 
-    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
- 
+    
 #slider2 {
   position: relative;
   overflow: hidden;
@@ -95,10 +94,7 @@ a.control_next {
   height: 300px;
   text-align: center;
   line-height: 300px;
-}
-.wrapimg img {
-  width: 100%;height:250px;
-}
+} 
 a.control_prev3, a.control_next3, a.control_prev4, a.control_next4, a.control_prev5, a.control_next5 {
   position: absolute;
   top: 40%;
