@@ -243,6 +243,7 @@ header .intro-text {
 	padding: 80px 0;
 	background: #f6f6f6;
     width: 100%;
+    min-width: 490px;
 } 
 .categories {
 	padding-bottom: 40px;
