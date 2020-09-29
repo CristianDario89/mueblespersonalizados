@@ -242,7 +242,8 @@ header .intro-text {
 #portfolio {
 	padding: 120px 0;
 	background: #f6f6f6;
-}
+    
+} 
 .categories {
 	padding-bottom: 40px;
 	text-align: center;
@@ -304,8 +305,12 @@ ol.type li a:hover {
 	transition-property: transform, opacity;
 }
 .portfolio-item {
-	margin: 15px 0;
-}
+margin: 15px 0;
+    
+}/*
+.hover-bg a img{
+    width: 100%;height: 100%;
+}*/
 .portfolio-item .hover-bg {
 	overflow: hidden;
 	position: relative;
@@ -384,6 +389,7 @@ ol.type li a:hover {
 }
 /* Contact Section */
 #contact {
+  
 	padding: 120px 0 60px 0;
 	background: #F6F6F6;
 }
@@ -490,4 +496,7 @@ color: #777;
 	padding: 10px 10px;
  
 } 
+    header .intro-text {
+	padding-top: 200px; 
+}
 }  

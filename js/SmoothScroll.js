@@ -422,7 +422,7 @@ function overflowingAncestor(el) {
  ***********************************************/
 
 function addEvent(type, fn, bubble) {
-    window.addEventListener(type, fn, (bubble||false));
+    window.addEventListener('wheel', func, {passive:false});
 }
 
 function removeEvent(type, fn, bubble) {
