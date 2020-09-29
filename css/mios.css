@@ -137,21 +137,15 @@ a.control_next3, a.control_next4, a.control_next5 {
   font-size: 18px;
 }
 
-@media screen and (max-width: 800px) {
-  
-#slider3 ul, #slider4 ul, #slider5 ul, #slider2 ul {
- 
-   
-}
-
 #slider3 ul li img, #slider4 ul li img, #slider5 ul li img, #slider2 ul li img{
-  
+   width: 100%;height:250px;
   
 }
-   
-.wrapimg img {
-  width: 80%;height:250px;
-}   
+@media screen and (max-width: 800px) {
+ #slider3 ul li img, #slider4 ul li img, #slider5 ul li img, #slider2 ul li img{
+   width: 100%;height:250px;
+  
+}
 }  
 /*--------------*/
      .ribbon { 
