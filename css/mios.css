@@ -1,15 +1,15 @@
-.altito h2{
-    margin-top: 50px;
-} 
+.altito h2{margin-top: 50px;
+}  
+#slider3, #slider4, #slider5, #slider6, #slider7, #slider8, #slider2 {
+  position: relative;
+  overflow: hidden;
+  margin:    70px auto;
+  border-radius: 4px;
     
-#slider2 {
-  position: relative;
-  overflow: hidden;
-  margin:    70px auto;
-  border-radius: 4px;
 }
+.wrapsliders{display: flex;justify-content: space-around;}
 
-#slider2 ul {
+#slider3 ul, #slider4 ul, #slider5 ul, #slider6 ul, #slider7 ul, #slider8 ul, #slider2 ul {
   position: relative;
   margin: 0;
   padding: 0;
@@ -17,74 +17,7 @@
   list-style: none;
 }
 
-#slider2 ul li {
-  position: relative;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 500px;
-  height: 300px;
-   
-  text-align: center;
-  line-height: 300px;
-}
-
-a.control_prev, a.control_next {
-  position: absolute;
-  top: 40%;
-  z-index: 999;
-  display: block;
-  padding: 4% 3%;
-  width: auto;
-  height: auto;
-  background: #2a2a2a;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-a.control_prev:hover, a.control_next:hover {
-  opacity: 1;
-  -webkit-transition: all 0.2s ease;
-}
-
-a.control_prev {
-  border-radius: 0 2px 2px 0;
-}
-
-a.control_next {
-  right: 0;
-  border-radius: 2px 0 0 2px;
-}
-
-.slider2_option {
-  position: relative;
-  margin: 10px auto;
-  width: 160px;
-  font-size: 18px;
-}
-/*-----------*/
-
-#slider3, #slider4, #slider5 {
-  position: relative;
-  overflow: hidden;
-  margin:    70px auto;
-  border-radius: 4px;
-}
-
-#slider3 ul, #slider4 ul, #slider5 ul {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  height: 200px;
-  list-style: none;
-}
-
-#slider3 ul li, #slider4 ul li, #slider5 ul li {
+#slider3 ul li, #slider4 ul li, #slider5 ul li, #slider3 ul li, #slider6 ul li, #slider8 ul li, #slider2 ul li {
   position: relative;
   display: block;
   float: left;
@@ -94,62 +27,28 @@ a.control_next {
   height: 300px;
   text-align: center;
   line-height: 300px;
-} 
-a.control_prev3, a.control_next3, a.control_prev4, a.control_next4, a.control_prev5, a.control_next5 {
-  position: absolute;
-  top: 40%;
-  z-index: 999;
-  display: block;
-  padding: 4% 3%;
-  width: auto;
-  height: auto;
-  background: #2a2a2a;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-a.control_prev3:hover, a.control_next3:hover, a.control_prev4:hover, a.control_next4:hover, a.control_prev5:hover, a.control_next5:hover {
-  opacity: 1;
-  -webkit-transition: all 0.2s ease;
-}
-
-a.control_prev3, a.control_prev4,  a.control_prev5 {
-  border-radius: 0 2px 2px 0;
-}
-
-a.control_next3, a.control_next4, a.control_next5 {
-  right: 0;
-  border-radius: 2px 0 0 2px;
-}
-
-.slider2_option3, .slider2_option4, .slider2_option5 {
+}  
+.slider2_option3, .slider2_option4, .slider2_option5, .slider2_option6, .slider2_option7, .slider2_option8,  .slider2_option2  {
   position: relative;
   margin: 10px auto;
   width: 160px;
   font-size: 18px;
 }
 
-#slider3 ul li img, #slider4 ul li img, #slider5 ul li img, #slider2 ul li img{
-   width: 100%;height:250px;
+#slider3 ul li img, #slider4 ul li img, #slider5 ul li img, #slider2 ul li img, #slider3 ul li img, #slider6 ul li img, #slider7 ul li img, #slider8 ul li img, #slider2 ul li img{
+   width: 100%;height:270px;
   
 }
 @media screen and (max-width: 800px) {
- #slider3 ul li img, #slider4 ul li img, #slider5 ul li img, #slider2 ul li img{
-   width: 100%;height:280px;
-  transform: scaleX(0.8);
+ #slider3 ul li img, #slider4 ul li img, #slider5 ul li img, #slider2 ul li img, #slider3 ul li img, #slider6 ul li img, #slider7 ul li img, #slider8 ul li im8{
+   width: 100%;height:380px;
+ 
 }
-    .altito h2{
-    margin-top: 50px;
-        transform: translateX(20px);
-     
-} 
-    .corremenu{
-        transform: translateX(-25px);
-    }
+.altito h2{;transform: translateX(20px) scale(1.3);} 
+    
+.corremenu{transform: translateX(-25px);}
+    
+.wrapsliders{flex-direction: column;}
 }  
 /*--------------*/
      .ribbon { 
